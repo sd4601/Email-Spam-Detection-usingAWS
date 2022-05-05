@@ -118,7 +118,7 @@ def lambda_handler(event, context):
         CLASSIFICATION = "NOT SPAM"
     CLASSIFICATION_CONFIDENCE_SCORE = str(float(result['predicted_probability'][0][0]) * 100)
     
-    SENDER = "spamdetection@spamfiltercloud.ml"
+    SENDER = "shanthi123@spammail.ml"
     RECIPIENT = msg['From']
     EMAIL_RECEIVE_DATE = msg["Date"]
     EMAIL_SUBJECT = msg["Subject"]
